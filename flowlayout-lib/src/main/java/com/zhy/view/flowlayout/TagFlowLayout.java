@@ -157,6 +157,7 @@ public class TagFlowLayout extends FlowLayout
     private void setChildChecked(int position, TagView view) {
         view.setChecked(true);
         mTagAdapter.onSelected(position, view.getTagView());
+        mSelectedView.add(position);
     }
 
     private void setChildUnChecked(int position, TagView view) {
