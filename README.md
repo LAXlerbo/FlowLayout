@@ -27,6 +27,24 @@ dependencies {
 }
 ```
 
+## fixBug【#110】
+
+```java
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+```java
+	dependencies {
+	        compile 'com.github.LAXlerbo:FlowLayout:v1.0'
+	}
+
+```
+
+
 ### 声明
 布局文件中声明：
 
